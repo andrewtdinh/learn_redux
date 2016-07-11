@@ -6,7 +6,9 @@ const Main = React.createClass({
   render(){
     return (
       <div>
-        <h1>Reduxstagram</h1>
+        <h1>
+          <Link to='/'>Reduxstagram</Link>
+        </h1>
       </div>
     )
   }
