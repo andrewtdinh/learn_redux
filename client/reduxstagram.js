@@ -21,4 +21,4 @@ const router = (
   </Router>
 )
 
-render(<Main/>, document.getElementById('root'));
+render(router, document.getElementById('root'));
