@@ -9,4 +9,7 @@ import Main from './components/Main';
 import Single from './components/Single';
 import PhotoGrid from './components/PhotoGrid';
 
+// import react router deps
+import {Router, Route, IndexRoute, browserHistory} from 'react-router';
+
 render(<Main/>, document.getElementById('root'));
