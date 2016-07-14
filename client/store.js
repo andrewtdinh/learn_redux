@@ -7,3 +7,4 @@ import rootReducer from './reducers/index';
 
 // import data
 import comments from './data/comments';
+import posts from './data/posts';
