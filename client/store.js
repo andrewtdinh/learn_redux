@@ -16,3 +16,4 @@ const defaultState = {
 };
 
 const store = createStore(rootReducer, defaultState);
+const history = syncHistoryWithStore(browserHistory, store);
