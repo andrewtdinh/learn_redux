@@ -17,3 +17,10 @@ function addComment(postId, author, comment){
 }
 
 // remove comment
+function removeComment(postId, i){
+  return {
+    type: 'REMOVE_COMMENT',
+    i,
+    postId
+  }
+}
