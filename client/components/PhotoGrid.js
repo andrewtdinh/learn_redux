@@ -4,7 +4,7 @@ const PhotoGrid = React.createClass({
   render(){
     return (
       <div className="photo-grid">
-        I am a Photo Grid component
+        {this.props.posts.map((posts, i) => <Photo/>)}
       </div>
     )
   }
