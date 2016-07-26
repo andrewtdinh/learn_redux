@@ -8,6 +8,6 @@ const Photo = React.createClass({
       </figure>
     )
   }
-})
+});
 
 export default Photo;
