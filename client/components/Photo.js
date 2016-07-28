@@ -6,8 +6,8 @@ const Photo = React.createClass({
     return (
       <figure className='grid-figure'>
         <div className="grid-photo-wrap">
-          <Link to={`/view/${post.code}`}>
-            {post.caption}
+          <Link to={`/view/${this.props.post.code}`}>
+            {this.props.post.caption}
           </Link>
         </div>
       </figure>
