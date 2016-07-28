@@ -17,6 +17,10 @@ const Photo = React.createClass({
             </span>
           </CSSTransitionGroup>
         </div>
+
+        <figcaption>
+          <p>{post.caption}</p>
+        </figcaption>
       </figure>
     )
   }
