@@ -1,11 +1,13 @@
 import React from 'react';
 
-const Comment = React.createClass({
+const Comments = React.createClass({
   render(){
     return (
-
+      <div className='comment'>
+        I'm the comments!!!
+      </div>
     )
   }
 });
 
-export default Comment;
+export default Comments;
