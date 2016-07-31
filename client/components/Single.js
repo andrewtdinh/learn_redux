@@ -1,6 +1,6 @@
 import React from 'react';
 import Photo from './Photo';
-//import comments
+import Comments from '.Comments';
 
 const Single = React.createClass({
   render(){
