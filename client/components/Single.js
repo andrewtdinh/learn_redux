@@ -7,10 +7,9 @@ const Single = React.createClass({
     //index of the post
     const i = this.props.posts.findIndex((post) => post.code === this.props.params.postId);
     const post = this.props.posts[i];
-    console.log(post);
     return (
       <div className="single-photo">
-        I'm a Single component
+        <Photo i={i} post={post} {...this.props}/>
       </div>
     )
   }
