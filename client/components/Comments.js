@@ -6,6 +6,7 @@ const Comments = React.createClass({
       <div className='comment' key={i}>
         <p>
           <strong>{comment.user}</strong>
+          {comment.text}
         </p>
       </div>
     )
