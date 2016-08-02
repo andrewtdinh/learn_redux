@@ -2,7 +2,13 @@ import React from 'react';
 
 const Comments = React.createClass({
   renderComment(comment, i){
-    console.log(comment)
+    return (
+      <div className='comment' key={i}>
+        <p>
+          <strong>{comment.user}</strong>
+        </p>
+      </div>
+    )
   },
   render(){
     return (
