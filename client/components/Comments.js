@@ -16,6 +16,9 @@ const Comments = React.createClass({
     return (
       <div className='comments'>
         {this.props.postComments.map(this.renderComment)}
+        <form ref='commentForm' className='comment-form'>
+          
+        </form>
       </div>
     )
   }
