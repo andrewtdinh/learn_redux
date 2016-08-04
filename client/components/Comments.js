@@ -12,6 +12,15 @@ const Comments = React.createClass({
       </div>
     )
   },
+
+  handleSubmit(e){
+    e.preventDefault();
+    const {postId} = this.props.params;
+    const author = this.refs.author.value;
+    const comment = this.refs.comment.value;
+    console.log(postId, author, comment);
+  },
+
   render(){
     return (
       <div className='comments'>
