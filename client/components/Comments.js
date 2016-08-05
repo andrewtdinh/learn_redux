@@ -19,8 +19,7 @@ const Comments = React.createClass({
     const author = this.refs.author.value;
     const comment = this.refs.comment.value;
     this.props.addComment(postId, author, comment);
-    this.refs.author.value = '';
-    this.refs.comment.value = '';
+    this.refs.commentForm.reset();
 
   },
 
